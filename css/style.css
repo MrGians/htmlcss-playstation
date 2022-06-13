@@ -7,16 +7,26 @@
     --secondary: #1F1F1F;
 }
 
-
-/*********** Utilities ***********/
-/* DELETE BORDER RULES */
-
-
-/*********** Generics ***********/
-
 /*********** Header ***********/
-#jumbotron {
-    height: 450px;
+#jumbotron-top {
+    height: 650px;
     background: url("../images/jumbo-bg.png") no-repeat center;
-    background-size: cover;
+    background-size: 450px cover;
+}
+
+
+/*********** Main ***********/
+
+
+
+
+/************ CUSTOM MEDIAQUERY ************/
+/* Responsive View Medium -md- from 768px */
+
+@media screen and (min-width: 768px) {
+    
+    /* Console Playstation 5 Section */
+    #playstation-5 .row .col-md-custom {
+        width: calc(100% / 5);
+    }
 }
