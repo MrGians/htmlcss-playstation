@@ -6,6 +6,7 @@
     --primary: #00439C;
     --secondary: #1F1F1F;
     --tertiary: #BEBCBB;
+    --bg-ps-now: #161C3B;
 }
 
 /*********** Header ***********/
@@ -30,6 +31,10 @@
 
 /* Playstation Plus Banner Section */
 #playstation-plus {background-color: var(--tertiary);}
+
+
+/* Playstation Now Banner Section */
+#playstation-now {background-color: var(--bg-ps-now);}
 
 
 
