@@ -23,6 +23,13 @@
 }
 
 
+/* New Releases Section */
+#new-releases {background-color: var(--secondary);}
+
+
+
+
+
 
 /************ CUSTOM MEDIAQUERY ************/
 /* Responsive View Medium -md- from 768px */
