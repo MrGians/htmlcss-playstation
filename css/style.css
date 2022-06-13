@@ -1,13 +1,22 @@
 /*********** Palette color ***********/
 :root{
-    --white: #FFF;
-    --grey: #999;
-    --black: #000;
-    --primary: #00439C;
-    --secondary: #1F1F1F;
-    --tertiary: #BEBCBB;
-    --bg-ps-now: #161C3B;
+    --footer: #00439C;
+    --new-release: #1F1F1F;
+    --ps-plus: #BEBCBB;
+    --ps-now: #161C3B;
 }
+
+
+/*********** Custom Utilities ***********/
+.filter-cyano {filter: invert(28%) sepia(33%) saturate(7227%) hue-rotate(192deg) brightness(93%) contrast(107%);}
+.filter-white {filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(18deg) brightness(113%) contrast(97%);}
+
+
+.cs-bg-ps-now {background-color: var(--ps-now);}
+.cs-bg-ps-plus {background-color: var(--ps-plus);}
+.cs-bg-releases {background-color: var(--new-release);}
+.cs-bg-footer {background-color: var(--footer);}
+
 
 /*********** Header ***********/
 #jumbotron-top {
@@ -25,22 +34,7 @@
 }
 
 
-/* New Releases Section */
-#new-releases {background-color: var(--secondary);}
-
-
-/* Playstation Plus Banner Section */
-#playstation-plus {background-color: var(--tertiary);}
-
-
-/* Playstation Now Banner Section */
-#playstation-now {background-color: var(--bg-ps-now);}
-
-
-
 /*********** Footer ***********/
-footer {background-color: var(--primary);}
-
 #footer-middle a {text-decoration: none;}
 #footer-middle ul {list-style-type: none;}
 
