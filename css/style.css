@@ -18,6 +18,58 @@
 .cs-bg-footer {background-color: var(--footer);}
 
 
+/* Custom Button */
+.cs-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 0.3rem 0.7rem;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: border-color 0.1s linear;
+}
+
+.cs-btn:hover {color: currentColor;}
+
+.cs-btn.cs-btn-dark {
+    background-color: #363636;
+    box-shadow: 0px 0px 0px 2px #363636;
+}
+.cs-btn.cs-btn-dark:hover {
+    border-color: #FFF;
+}
+
+.cs-btn.cs-btn-orange {
+    background-color: #CD3D0F;
+    box-shadow: 0px 0px 0px 2px #CD3D0F;
+}
+.cs-btn.cs-btn-orange:hover {
+    border-color: #000;
+}
+.cs-btn.cs-btn-blue {
+    background-color: #2D64E6;
+    box-shadow: 0px 0px 0px 2px #2D64E6;
+    color: #FFF;
+}
+.cs-btn.cs-btn-blue:hover {border-color: #FFF; }
+
+.cs-btn.cs-btn-plus {
+    background-color: #D9DADC;
+    box-shadow: 0px 0px 0px 2px #D9DADC;
+    color: #2D64E6;
+}
+.cs-btn.cs-btn-plus:hover {border-color: var(--ps-plus); }
+
+.cs-btn.cs-btn-now {
+    background-color: #FFF;
+    box-shadow: 0px 0px 0px 2px #FFF;
+    color: #000;
+}
+.cs-btn.cs-btn-now:hover {border-color: var(--ps-now); }
+
+
+
 /*********** Header ***********/
 #jumbotron-top {
     height: 650px;
