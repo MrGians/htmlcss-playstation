@@ -9,9 +9,14 @@
 
 
 /*********** Utilities ***********/
+/* DELETE BORDER RULES */
 
 
 /*********** Generics ***********/
 
 /*********** Header ***********/
-#header-top-bar img {height: 15px;}
+#jumbotron {
+    height: 450px;
+    background: url("../images/jumbo-bg.png") no-repeat center;
+    background-size: cover;
+}
