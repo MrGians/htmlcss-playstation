@@ -38,6 +38,14 @@
 
 
 
+/*********** Footer ***********/
+footer {background-color: var(--primary);}
+
+#footer-middle a {text-decoration: none;}
+#footer-middle ul {list-style-type: none;}
+
+
+
 
 
 /************ CUSTOM MEDIAQUERY ************/
