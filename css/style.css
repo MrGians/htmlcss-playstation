@@ -3,8 +3,8 @@
     --white: #FFF;
     --grey: #999;
     --black: #000;
-    --primary: #;
-    --secondary: #;
+    --primary: #00439C;
+    --secondary: #1F1F1F;
 }
 
 
@@ -12,3 +12,6 @@
 
 
 /*********** Generics ***********/
+
+/*********** Header ***********/
+#header-top-bar img {height: 15px;}
