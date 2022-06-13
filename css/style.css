@@ -5,6 +5,7 @@
     --black: #000;
     --primary: #00439C;
     --secondary: #1F1F1F;
+    --tertiary: #BEBCBB;
 }
 
 /*********** Header ***********/
@@ -25,6 +26,11 @@
 
 /* New Releases Section */
 #new-releases {background-color: var(--secondary);}
+
+
+/* Playstation Plus Banner Section */
+#playstation-plus {background-color: var(--tertiary);}
+
 
 
 
