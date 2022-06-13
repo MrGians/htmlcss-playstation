@@ -40,8 +40,6 @@
 
 
 
-
-
 /************ CUSTOM MEDIAQUERY ************/
 /* Responsive View Medium -md- from 768px */
 
@@ -51,4 +49,9 @@
     #playstation-5 .row .col-md-custom {
         width: calc(100% / 5);
     }
+
+
+    /* Social Media Link Section */
+    #social a img {max-width: 120px;}
+
 }
