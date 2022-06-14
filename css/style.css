@@ -17,6 +17,8 @@
 .cs-bg-releases {background-color: var(--new-release);}
 .cs-bg-footer {background-color: var(--footer);}
 
+/* Image Utils */
+.fill-image {object-fit: fill;}
 
 /* Custom Button */
 .cs-btn {
@@ -84,6 +86,8 @@
     background: url("../images/it-takes-two-hero-banner-desktop.jpg") no-repeat center;
     background-size: cover;
 }
+
+
 
 
 /*********** Footer ***********/
