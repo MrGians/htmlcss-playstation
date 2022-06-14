@@ -154,6 +154,14 @@
         width: calc(100% / 5);
     }
 
+    /* Console Playstation 4 Section */
+    #playstation-4 .row .cs-md-product {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 
     /* Social Media Link Section */
     #social a img {max-width: 120px;}
