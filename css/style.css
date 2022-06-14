@@ -1,9 +1,12 @@
 /*********** Palette color ***********/
 :root{
     --footer: #00439C;
-    --new-release: #1F1F1F;
+    --releases: #1F1F1F;
     --ps-plus: #BEBCBB;
     --ps-now: #161C3B;
+
+    --text-grey: #727272;
+    --text-cyano: #0071D1;
 }
 
 
@@ -11,10 +14,12 @@
 .filter-cyano {filter: invert(28%) sepia(33%) saturate(7227%) hue-rotate(192deg) brightness(93%) contrast(107%);}
 .filter-white {filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(18deg) brightness(113%) contrast(97%);}
 
+.cs-text-grey {color: var(--text-grey);}
+.cs-text-cyano {color: var(--text-cyano);}
 
 .cs-bg-ps-now {background-color: var(--ps-now);}
 .cs-bg-ps-plus {background-color: var(--ps-plus);}
-.cs-bg-releases {background-color: var(--new-release);}
+.cs-bg-new-releases {background-color: var(--releases);}
 .cs-bg-footer {background-color: var(--footer);}
 
 /* Image Utils */
@@ -24,11 +29,12 @@
 .cs-btn {
     display: inline-block;
     text-decoration: none;
-    color: #FFF;
+    font-weight: 600;
     padding: 0.3rem 0.7rem;
+    color: #FFF;
+    cursor: pointer;
     border: 2px solid transparent;
     border-radius: 30px;
-    cursor: pointer;
     transition: border-color 0.1s linear;
 }
 
@@ -72,24 +78,35 @@
 
 
 
-/*********** Header ***********/
+/*********** Navbar ***********/
 #navbar {box-shadow: 0 0 20px 5px black;}
 
+
+
+/*********** Main ***********/
+
+/* Jumbotron */
 #jumbotron-top {
     height: 650px;
     background: url("../images/jumbo-bg.png") no-repeat center;
     background-size: cover;
 }
 
-
-/*********** Main ***********/
 /* Game Banner Overlay Section */
 #game-banner {
     background: url("../images/it-takes-two-hero-banner-desktop.jpg") no-repeat center;
     background-size: cover;
 }
 
-
+/* Playstation Plus & Playstation Now */
+/* Left Column Fix */
+#playstation-plus .flex-custom-col,
+#playstation-now .flex-custom-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 
 /*********** Footer ***********/
