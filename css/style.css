@@ -92,6 +92,13 @@
     background-size: cover;
 }
 
+/* Jumbotron Bonus */
+#jumbotron-bottom .cs-active {border: 2px solid #0071d1;}
+
+#jumbotron-bottom figure {transition: transform 0.2s linear;}
+#jumbotron-bottom figure:hover {transform: translateY(-20px);}
+
+
 /* Game Banner Overlay Section */
 #game-banner {
     background: url("../images/it-takes-two-hero-banner-desktop.jpg") no-repeat center;
