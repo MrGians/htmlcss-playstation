@@ -99,6 +99,26 @@
 #jumbotron-bottom figure:hover {transform: translateY(-20px);}
 
 
+/* Console Playstation 5 Section */
+#playstation-5 .cs-product.cs-active {
+    border-bottom: 4px solid #0071d1;
+    opacity: 1;
+}
+
+/* Console Playstation 5 Bonus */
+#playstation-5 .cs-product {
+    height: 100%;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+    opacity: 0.5;
+    transition: border 0.2s linear, opacity 0.2s linear;
+}
+#playstation-5 .cs-product:hover {
+    border-bottom: 4px solid #0071d1;
+    opacity: 1;
+}
+
+
 /* Game Banner Overlay Section */
 #game-banner {
     background: url("../images/it-takes-two-hero-banner-desktop.jpg") no-repeat center;
