@@ -73,6 +73,8 @@
 
 
 /*********** Header ***********/
+#navbar {box-shadow: 0 0 20px 5px black;}
+
 #jumbotron-top {
     height: 650px;
     background: url("../images/jumbo-bg.png") no-repeat center;
