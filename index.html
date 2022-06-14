@@ -18,60 +18,343 @@
     <!-- Navbar Top Bar -->
     <div id="header-top-bar" class="bg-black">
         <div class="container-fluid d-flex flex-row-reverse py-2">
-            <img class="d-block" src="images/sony_logo.svg" alt="Logo Sony" height="15px">
+            <img class="d-block" src="images/sony_logo.svg" alt="Logo Sony" width="100">
         </div>
     </div>
     <!-- Sticky Navbar -->
     <nav id="navbar" class="navbar sticky-top navbar-expand-lg bg-light">
         <div class="container-fluid">
+            <!-- Playstation Logo -->
             <a class="navbar-brand" href="#">
                 <img class="filter-cyano" src="images/play_logo.svg" alt="Logo Playstation" width="50">
             </a>
+            <!-- Hamburger Menu -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Navbar Links -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <!-- Navbar | Right Side -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Giochi</a>
-                    </li>
+                    <!-- Navbar List Item | Giochi -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link active cs-dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page" >
+                            Giochi
+                        </a>
+                        <!-- Dropdown List Item Menu | Nest #1 -->
+                        <ul class="dropdown-menu cs-dropdown-menu text-center bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- Item List #1 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 5" height="100">
+                                    </figure>
+                                    <span>Playstation 5</span>
+                                </a>
+                            </li>
+                            <!-- Item List #2 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 4" height="100">
+                                    </figure>
+                                    <span>Playstation 4</span>
+                                </a>
+                            </li>
+                            <!-- Item List #3 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 3" height="100">
+                                    </figure>
+                                    <span>Playstation 3</span>
+                                </a>
+                            </li>
+                            <!-- Dropdown List Item | Nest #2 -->
+                            <li class="d-block">
+                                <ul class="border-top py-2">
+                                    <li class="mx-2"><a href="#">Link Giochi</a></li>
+                                    <li class="mx-2"><a href="#">Link Giochi</a></li>
+                                    <li class="mx-2"><a href="#">Link Giochi</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Navbar List Item | Hardware -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link cs-dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Hardware
                         </a>
+                        <!-- Dropdown List Item Menu | Nest #1 -->
+                        <ul class="dropdown-menu cs-dropdown-menu text-center bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- Item List #1 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 5" height="100">
+                                    </figure>
+                                    <span>Playstation 5</span>
+                                </a>
+                            </li>
+                            <!-- Item List #2 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 4" height="100">
+                                    </figure>
+                                    <span>Playstation 4</span>
+                                </a>
+                            </li>
+                            <!-- Item List #3 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 3" height="100">
+                                    </figure>
+                                    <span>Playstation 3</span>
+                                </a>
+                            </li>
+                            <!-- Dropdown List Item | Nest #2 -->
+                            <li class="d-block">
+                                <ul class="border-top py-2">
+                                    <li class="mx-2"><a href="#">Link Hardware</a></li>
+                                    <li class="mx-2"><a href="#">Link Hardware</a></li>
+                                    <li class="mx-2"><a href="#">Link Hardware</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
-                    <!-- Dropdown Menu | Hardware -->
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                    <!-- END -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Servizi</a>
+                    <!-- Navbar List Item | Servizi -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link cs-dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servizi
+                        </a>
+                        <!-- Dropdown List Item Menu | Nest #1 -->
+                        <ul class="dropdown-menu cs-dropdown-menu text-center bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- Item List #1 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 5" height="100">
+                                    </figure>
+                                    <span>Playstation 5</span>
+                                </a>
+                            </li>
+                            <!-- Item List #2 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 4" height="100">
+                                    </figure>
+                                    <span>Playstation 4</span>
+                                </a>
+                            </li>
+                            <!-- Item List #3 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 3" height="100">
+                                    </figure>
+                                    <span>Playstation 3</span>
+                                </a>
+                            </li>
+                            <!-- Dropdown List Item | Nest #2 -->
+                            <li class="d-block">
+                                <ul class="border-top py-2">
+                                    <li class="mx-2"><a href="#">Link Servizi</a></li>
+                                    <li class="mx-2"><a href="#">Link Servizi</a></li>
+                                    <li class="mx-2"><a href="#">Link Servizi</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Novità</a>
+                    <!-- Navbar List Item | Novità -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link cs-dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Novità
+                        </a>
+                        <!-- Dropdown List Item Menu | Nest #1 -->
+                        <ul class="dropdown-menu cs-dropdown-menu text-center bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- Item List #1 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 5" height="100">
+                                    </figure>
+                                    <span>Playstation 5</span>
+                                </a>
+                            </li>
+                            <!-- Item List #2 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 4" height="100">
+                                    </figure>
+                                    <span>Playstation 4</span>
+                                </a>
+                            </li>
+                            <!-- Item List #3 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 3" height="100">
+                                    </figure>
+                                    <span>Playstation 3</span>
+                                </a>
+                            </li>
+                            <!-- Dropdown List Item | Nest #2 -->
+                            <li class="d-block">
+                                <ul class="border-top py-2">
+                                    <li class="mx-2"><a href="#">Link Novità</a></li>
+                                    <li class="mx-2"><a href="#">Link Novità</a></li>
+                                    <li class="mx-2"><a href="#">Link Novità</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Fai acquisti</a>
+                    <!-- Navbar List Item | Fai acquisti -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link cs-dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fai acquisti
+                        </a>
+                        <!-- Dropdown List Item Menu | Nest #1 -->
+                        <ul class="dropdown-menu cs-dropdown-menu text-center bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- Item List #1 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 5" height="100">
+                                    </figure>
+                                    <span>Playstation 5</span>
+                                </a>
+                            </li>
+                            <!-- Item List #2 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 4" height="100">
+                                    </figure>
+                                    <span>Playstation 4</span>
+                                </a>
+                            </li>
+                            <!-- Item List #3 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 3" height="100">
+                                    </figure>
+                                    <span>Playstation 3</span>
+                                </a>
+                            </li>
+                            <!-- Dropdown List Item | Nest #2 -->
+                            <li class="d-block">
+                                <ul class="border-top py-2">
+                                    <li class="mx-2"><a href="#">Link Fai acquisti</a></li>
+                                    <li class="mx-2"><a href="#">Link Fai acquisti</a></li>
+                                    <li class="mx-2"><a href="#">Link Fai acquisti</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Supporto</a>
+                    <!-- Navbar List Item | Supporto -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link cs-dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Supporto
+                        </a>
+                        <!-- Dropdown List Item Menu | Nest #1 -->
+                        <ul class="dropdown-menu cs-dropdown-menu text-center bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- Item List #1 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 5" height="100">
+                                    </figure>
+                                    <span>Playstation 5</span>
+                                </a>
+                            </li>
+                            <!-- Item List #2 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 4" height="100">
+                                    </figure>
+                                    <span>Playstation 4</span>
+                                </a>
+                            </li>
+                            <!-- Item List #3 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 3" height="100">
+                                    </figure>
+                                    <span>Playstation 3</span>
+                                </a>
+                            </li>
+                            <!-- Dropdown List Item | Nest #2 -->
+                            <li class="d-block">
+                                <ul class="border-top py-2">
+                                    <li class="mx-2"><a href="#">Link Supporto</a></li>
+                                    <li class="mx-2"><a href="#">Link Supporto</a></li>
+                                    <li class="mx-2"><a href="#">Link Supporto</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
+                <!-- Navbar | Left Side -->
                 <ul class="navbar-nav align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">My PlayStation</a>
+                    <!-- Navbar List Item | My Playstation -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link cs-dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            My Playstation
+                        </a>
+                        <!-- Dropdown List Item Menu | Nest #1 -->
+                        <ul class="dropdown-menu cs-dropdown-menu text-center bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- Item List #1 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 5" height="100">
+                                    </figure>
+                                    <span>Playstation 5</span>
+                                </a>
+                            </li>
+                            <!-- Item List #2 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 4" height="100">
+                                    </figure>
+                                    <span>Playstation 4</span>
+                                </a>
+                            </li>
+                            <!-- Item List #3 -->
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <figure>
+                                        <img src="images/play-menu-ico.png" alt="Playstation 3" height="100">
+                                    </figure>
+                                    <span>Playstation 3</span>
+                                </a>
+                            </li>
+                            <!-- Dropdown List Item | Nest #2 -->
+                            <li class="d-block">
+                                <ul class="border-top py-2">
+                                    <li class="mx-2"><a href="#">Link My Playstation</a></li>
+                                    <li class="mx-2"><a href="#">Link My Playstation</a></li>
+                                    <li class="mx-2"><a href="#">Link My Playstation</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
+                    <!-- Navbar List Item | Btn Accedi -->
                     <li class="nav-item">
                         <a class="nav-link cs-btn cs-btn-dark text-white mx-3" href="#">Accedi</a>
                     </li>
+                    <!-- Navbar List Item | Search Lens -->
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <img src="images/lens.svg" alt="Logo Playstation" width="25">
+                            <img src="images/lens.svg" alt="Search" width="25">
                         </a>
                     </li>
                 </ul>
@@ -91,7 +374,7 @@
                     <div class="row h-100 align-items-end py-5">
                         <div class="col col-md-11 col-lg-4">
                             <img class="w-50 py-3" src="images/returnal-hero-banner-logo.png" alt="Returnal Logo">
-                            <h1><strong>Rompi il cerchio</strong></h1>
+                            <h2 class="h1"><strong>Rompi il cerchio</strong></h2>
                             <p class="h6 py-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
                             <a href="#" class="cs-btn cs-btn-orange">Acquista ora</a>
                         </div>
@@ -489,7 +772,7 @@
                     </figure>
                     <!-- Flex <div> to Vertically align Globe & Text -->
                     <div class="d-flex align-items-center">
-                        <img src="images/language-globe.svg" alt="Language Globe" width="25px">
+                        <img src="images/language-globe.svg" alt="Language Globe" width="25">
                         <span class="h6 mb-0 ms-3">Country / Region: Italy</span>
                     </div>
                 </section>
@@ -531,7 +814,7 @@
                 <!-- Footer Bottom -->
                 <section id="footer-bottom" class="col">
                     <figure>
-                        <img src="images/sie-logo.svg" alt="Sony Interactive Entertainment Logo" height="60px">
+                        <img src="images/sie-logo.svg" alt="Sony Interactive Entertainment Logo" width="150">
                     </figure>
                     <p class="h6">Website &copy;2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a class="text-white" href="#">Maggiori info</a></p>
                 </section>

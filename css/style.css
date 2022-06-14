@@ -79,7 +79,59 @@
 
 
 /*********** Navbar ***********/
-#navbar {box-shadow: 0 0 20px 5px black;}
+#navbar {box-shadow: 0 8px 10px -10px black;}
+
+/* Navbar Dropdown Link Bonus */
+#navbar .navbar-nav > .dropdown {position: static;}
+#navbar .navbar-nav > .dropdown:hover {color: black;}
+
+#navbar .dropdown > .cs-dropdown-toggle::after {
+    content: url("../images/chevron-down-solid.svg");
+    display: inline-block;
+    width: 10px;
+}
+#navbar .dropdown > .cs-dropdown-toggle.show::after {
+    content: url("../images/chevron-down-solid-hover.svg");
+    display: inline-block;
+    width: 10px;
+    transform: rotate(180deg);
+}
+
+
+/* List Nested #1 | Top Dropdown List */
+#navbar .cs-dropdown-menu {
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+#navbar .cs-dropdown-menu > li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#navbar .cs-dropdown-menu > li:hover > a {box-shadow: 0 0 5px 1px black;}
+
+
+/* List Nested #2 (inside .dropdown-menu) | Bottom Dropdown List */
+#navbar .cs-dropdown-menu ul {
+    display: flex;
+    justify-content: center;
+
+    list-style-type: disc;
+    list-style-position: inside;
+    color: var(--text-cyano);
+}
+
+#navbar .cs-dropdown-menu ul > li a {
+    text-decoration: none;
+    color: black;
+}
+#navbar .cs-dropdown-menu ul > li:hover a {color: var(--text-cyano);}
 
 
 
