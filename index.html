@@ -27,17 +27,28 @@
             <a class="navbar-brand" href="#">
                 <img class="filter-cyano" src="images/play_logo.svg" alt="Logo Playstation" width="50">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Giochi</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Hardware</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hardware
+                        </a>
                     </li>
+                    <!-- Dropdown Menu | Hardware -->
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    <!-- END -->
                     <li class="nav-item">
                         <a class="nav-link" href="#">Servizi</a>
                     </li>
@@ -51,7 +62,7 @@
                         <a class="nav-link" href="#">Supporto</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav align-items-baseline">
+                <ul class="navbar-nav align-items-center">
                     <li class="nav-item">
                         <a class="nav-link" href="#">My PlayStation</a>
                     </li>
@@ -365,7 +376,7 @@
             <div class="container-sm">
                 <div class="row">
                     <!-- Playstation Plus | Column Left -->
-                    <div class="col-12 col-md-6 py-4 flex-custom-col">
+                    <div class="col-12 col-md-6 py-5 flex-custom-col">
                         <figure class="mb-0">
                             <img src="images/ps-plus-logo.png" alt="Playstation Plus Logo" height="70">
                         </figure>
@@ -415,7 +426,7 @@
             <div class="container-sm">
                 <div class="row">
                     <!-- Playstation Now | Column Left -->
-                    <div class="col-12 col-md-6 py-4 flex-custom-col">
+                    <div class="col-12 col-md-6 py-5 flex-custom-col">
                         <figure class="mb-0">
                             <img src="images/ps-now-logo-two-column.png" alt="Playstation Now Logo" height="70">
                         </figure>
@@ -439,25 +450,25 @@
                     </div>
                     <!-- Social Media Squares -->
                     <!-- Twitter -->
-                    <div class="col-6 col-sm-3 col-md-auto">
+                    <div class="col-6 pb-4 col-sm-3 col-md-auto">
                         <a href="#">
                             <img class="w-100" src="images/twitter.jpg" alt="Twitter">
                         </a>
                     </div>
                     <!-- Facebook -->
-                    <div class="col-6 col-sm-3 col-md-auto">
+                    <div class="col-6 pb-4 col-sm-3 col-md-auto">
                         <a href="#">
                             <img class="w-100" src="images/facebook.jpg" alt="Facebook">
                         </a>
                     </div>
                     <!-- Instagram -->
-                    <div class="col-6 col-sm-3 col-md-auto">
+                    <div class="col-6 pb-4 col-sm-3 col-md-auto">
                         <a href="#">
                             <img class="w-100" src="images/instagram.jpg" alt="Instagram">
                         </a>
                     </div>
                     <!-- Youtube -->
-                    <div class="col-6 col-sm-3 col-md-auto">
+                    <div class="col-6 pb-4 col-sm-3 col-md-auto">
                         <a href="#">
                             <img class="w-100" src="images/youtube.png" alt="Youtube">
                         </a>
@@ -528,5 +539,8 @@
         </div>
     </footer>
 
+    <!-- Bootstrap JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
